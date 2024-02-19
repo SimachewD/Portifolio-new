@@ -34,7 +34,7 @@ const Skills = () => {
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='skills__icon'><img style="width: 32px; height: 32px;" src="img/bs5.jpg" alt=""/></i>
+                                <i class='skills__icon'><img src="img/bs5.jpg" alt=""/></i>
                                 <span class="skills__name">Bootstrap5</span>
                             </div>
                             <div class="skills__bar skills__bs5">
