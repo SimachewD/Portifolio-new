@@ -1,16 +1,11 @@
+
+
 const Home = () => {
     return ( 
-        <div>
-           <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi, </h1> <h1>I am <span class="home__title-color">Simachew Denekew</span></h1> <h4>A 5th year Software Engineering Student at Bahir dar Technology Institute</h4>
-                </div>
-
-                
-
-                
+           <section className="container mx-auto px-4 py-8" id="home">
+                <h1 className="text-3xl font-bold mb-8 text-center">Welcome</h1>
+                <p className="text-center">0927180474 | ADDIS ABABA | simachewdenekewse@gmail.com</p>
             </section>
-        </div> 
     );
 }
  
