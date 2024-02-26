@@ -16,7 +16,7 @@ const Contact = () => {
         <div className="container mx-auto px-4 py-8" id='contact'>
             <h2 className="text-2xl font-bold mb-4 text-center">Contact Me</h2>
             <p className="text-center">You can send me a message here:</p>
-            <form onSubmit={handleSubmit} className="mt-4 w-3/5 mx-auto">
+            <form onSubmit={handleSubmit} className="mt-4 md:w-3/5 mx-auto">
                 <textarea
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}

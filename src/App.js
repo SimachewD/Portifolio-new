@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="flex flex-col md:grid md:grid-cols-4 md:gap-4 ">
       <div className="sticky shadow-2xl top-0 md:row-span-2 md:col-span-1"><Navbar /></div>
-      <div className=" mt-10 ml-8 md:col-span-3 ">
+      <div className=" mt-10 md:ml-8 md:col-span-3 ">
         <div ><Home /></div>
         <div ><About /></div>
         <div ><Skills /></div>

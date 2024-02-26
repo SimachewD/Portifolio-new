@@ -22,9 +22,9 @@ const Navbar = () => {
         function getNavbarHeight() {
             const screenWidth = window.innerWidth;
             if (screenWidth <= 768) {
-                return 350; // Example height for mobile navbar
+                return 200; // Example height for mobile navbar
             } else {
-                return 20; // Example height for desktop navbar
+                return 10; // Example height for desktop navbar
             }
         }
 

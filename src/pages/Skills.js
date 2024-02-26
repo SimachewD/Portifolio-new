@@ -19,6 +19,45 @@ const Skills = () => {
                 <li>Express JS</li>
                 <li>MongoDB</li>
             </ul>
+
+            <div className="xl:grid xl:grid-cols-3 xl:gap-3">
+                <div className="rounded-xl md:flex p-1 max-w-md md:max-w-sm mx-auto xl:mx-0 bg-slate-50 overflow-hidden">
+                    <div className="rounded-xl md:w-1/3 md:flex-shrink-0">
+                        <img className=" rounded-xl h-40 md:h-full w-full object-cover md:w-48" src="https://via.placeholder.com/150" alt="Placeholder" />
+                    </div>
+                    <div className="rounded-xl p-8">
+                        <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Card Title</div>
+                        <p className="mt-2 text-gray-500">Lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+                <div className="rounded-xl md:flex p-1 max-w-md md:max-w-sm mx-auto xl:mx-0 bg-slate-50 overflow-hidden">
+                    <div className="rounded-xl md:w-1/3 md:flex-shrink-0">
+                        <img className=" rounded-xl h-40 md:h-full w-full object-cover md:w-48" src="https://via.placeholder.com/150" alt="Placeholder" />
+                    </div>
+                    <div className="rounded-xl p-8">
+                        <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Card Title</div>
+                        <p className="mt-2 text-gray-500">Lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+                <div className="rounded-xl md:flex p-1 max-w-md md:max-w-sm mx-auto xl:mx-0 bg-slate-50 overflow-hidden">
+                    <div className="rounded-xl md:w-1/3 md:flex-shrink-0">
+                        <img className=" rounded-xl h-40 md:h-full w-full object-cover md:w-48" src="https://via.placeholder.com/150" alt="Placeholder" />
+                    </div>
+                    <div className="rounded-xl p-8">
+                        <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Card Title</div>
+                        <p className="mt-2 text-gray-500">Lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+                <div className="rounded-xl md:flex p-1 max-w-md md:max-w-sm mx-auto xl:mx-0 bg-slate-50 overflow-hidden">
+                    <div className="rounded-xl md:w-1/3 md:flex-shrink-0">
+                        <img className=" rounded-xl h-40 md:h-full w-full object-cover md:w-48" src="https://via.placeholder.com/150" alt="Placeholder" />
+                    </div>
+                    <div className="rounded-xl p-8">
+                        <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Card Title</div>
+                        <p className="mt-2 text-gray-500">Lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }
