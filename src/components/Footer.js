@@ -6,10 +6,8 @@ import { FaGithub, FaLinkedinIn, FaStackOverflow, FaFreeCodeCamp, FaFacebook, Fa
 
 const Footer = () => {
   return (
-    <footer className=" border-t-4 bg-sky-900 text-white py-6">
-      <div className="container mx-auto px-4">
-        <div className="">
-          
+    <footer className=" border-t-4 bg-sky-900 text-white py-6 sm:py-24">
+      <div className="container mx-auto px-4">          
           <div className="flex justify-center">
             <a href="https://www.linkedin.com/in/simachew-denekew-0073231a1/" className="px-4"><FaLinkedinIn /></a>
             <a href="https://github.com/SimachewD" className="px-4"><FaGithub/></a>
@@ -26,9 +24,7 @@ const Footer = () => {
             <a href="https://www.instagram.com/Simachew_dw/" className="px-4"><FaInstagram /></a>
             <a href="https://t.me/Simachew_dw" className="px-4"><FaTelegram /></a>
             <a href="#h" className="px-4"><FaEnvelope /></a>
-          </div>
-          
-        </div>
+          </div>          
       </div>
     </footer>
   );

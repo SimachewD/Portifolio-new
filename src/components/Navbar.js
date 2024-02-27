@@ -37,7 +37,7 @@ const Navbar = () => {
                 anchor.removeEventListener('click', handleNavClick);
             });
         };
-    }, []);
+    }, []); 
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
@@ -57,8 +57,8 @@ const Navbar = () => {
 
             <nav className='navbar mt-3 grid grid-cols-4 md:flex md:text-lg font-semibold ml-5 mb-5 md:ml-0 md:justify-center md:mt-14'>
                 <i className={`col-span-1 md:hidden ${isMenuOpen ? 'hidden' : ''} cursor-pointer`} onClick={toggleMenu}><FaBars /></i>
-                <i className={`col-span-1 md:hidden ${isMenuOpen ? '' : 'hidden'} cursor-pointer`} onClick={toggleMenu}><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                                                                                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" /></svg></i>
+                <i className={`col-span-1 md:hidden ${isMenuOpen ? '' : 'hidden'} cursor-pointer`} onClick={toggleMenu}><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+                                                                                                                        <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" /></svg></i>
                 <ul className={`col-span-3 mt-4 md:block ${isMenuOpen ? 'block' : 'hidden'}`}>
                     <li><a href="#home" className={`flex items-baseline ${activeLink === "#home" ? 'active' : ''}`}><i className='mr-2'><FaHome /></i>Home</a></li>
                     <li><a href="#about" className={`flex items-baseline ${activeLink === "#about" ? 'active' : ''}`}><i className='mr-2'><FaAddressCard /></i>About</a></li>
